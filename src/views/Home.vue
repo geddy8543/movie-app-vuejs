@@ -46,6 +46,7 @@
 <style></style>
 
 <script>
+import axios from "axios";
 export default {
   data: function () {
     return {
@@ -90,8 +91,6 @@ export default {
         this.movies.splice(index, 1);
       });
     },
-  },
-};
   },
 };
 </script>
