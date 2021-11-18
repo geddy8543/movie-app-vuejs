@@ -1,6 +1,10 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import Create from "../views/Create.vue";
+import Index from "../views/Home.vue";
+import Edit from "../views/Edit.vue";
+import Show from "../views/Show.vue";
 
 Vue.use(VueRouter);
 
