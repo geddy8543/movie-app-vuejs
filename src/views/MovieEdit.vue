@@ -48,7 +48,7 @@ export default {
   },
   methods: {
     updateMovie: function () {
-      console.log("Fixing that movie!");
+      console.log("Update that movie!");
       axios
         .patch(`/movies/${this.$route.params.id}`, this.currentMovieParams)
         .then((response) => {
