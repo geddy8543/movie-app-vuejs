@@ -16,6 +16,9 @@
       <div>
         <label>Plot:</label>
         <input type="text" v-model="newMovieParams.plot" />
+        <small v-if="newMovieParams.plot.length > 0 && newMovieParams.plot.length < 20" class="text-danger">
+          Plot cannot exceed 500 characters
+        </small>
       </div>
       <div>
         <label>Director:</label>
